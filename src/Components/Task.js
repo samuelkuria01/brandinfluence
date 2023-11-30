@@ -18,7 +18,7 @@ function Task() {
           <h2>Level:LV1</h2>
         </div>
         <div className='upgrade'>
-          <Link to="/home">
+          <Link to="/packages">
           <h2>upgrade</h2>
           </Link>
         </div>
