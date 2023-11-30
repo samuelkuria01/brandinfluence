@@ -7,7 +7,7 @@ function Navbar() {
       
       <div>
         <nav className='nav'>
-            <Link to='/' className='navlink'>
+            <Link to='/home' className='navlink'>
             <i class="fa-solid fa-house"></i>
             <span className='navtext'>Home</span>
             </Link>

@@ -87,6 +87,12 @@ function Wallet() {
       
       </div>
 
+      <div>
+        <div>
+          <h2>Claim progress</h2>
+        </div>
+      </div>
+
 
     </div>
   )
