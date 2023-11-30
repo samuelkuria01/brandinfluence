@@ -54,6 +54,34 @@
   color: black;
   text-decoration: none;
 }
+.packagebagcont{
+  background-color:  #01afff;
+  border-radius:  #111212;
+  border-radius: 35px;
+  margin: 20px;
+}
+.myleveldaily{
+  width: 50%;
+  margin-left: 40%;
+}
+.dailyincome h2{
+  font-size: 12px;
+}
+.packagebag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.updatelevel{
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.effectivetime{
+  display: flex;
+  gap: 10px;
+}
 
 .task2 {
   display: flex;

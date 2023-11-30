@@ -8,6 +8,7 @@ import Wallet from './Components/Wallet'
 import Me from './Components/Me'
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+import Packages from './Components/Packages';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -27,6 +28,15 @@ function App() {
           path="/signup"
           element={
             <Signup
+              // Pass setShowNavbar as a prop to Login component
+              setShowNavbar={setShowNavbar}
+            />
+          }
+        />
+          <Route
+          path="/packages"
+          element={
+            <Packages
               // Pass setShowNavbar as a prop to Login component
               setShowNavbar={setShowNavbar}
             />
