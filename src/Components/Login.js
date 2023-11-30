@@ -30,7 +30,7 @@ function Login() {
         }
     }
   return (
-    <div>
+    <div className='mightycrown'>
       <form>
         <div className='formheader'>
             <div>

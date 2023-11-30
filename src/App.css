@@ -568,6 +568,17 @@ font-size: 18px;
   margin-bottom: 0px;
   font-size: 20px;
 }
+form {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 40%;
+  flex-direction: column;
+  background: #fff;
+  padding: 1.5rem 1rem;
+  width: 250px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
 
 }
 @media screen and (max-width: 280px) {
@@ -667,5 +678,27 @@ font-size: 18px;
 .recharge {
   background-color: #05022d;
   color: white;
+}
+
+form {
+  display: flex;
+  /* margin-left: 10%; */
+  margin-top: 50%;
+  flex-direction: column;
+  background: #fff;
+  padding: 1.5rem 1rem;
+  width: 240px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form input {
+  outline: none;
+  padding: 5px 6px;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+.mightycrown{
+  width: 60%;
 }
 }
