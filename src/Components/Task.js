@@ -18,7 +18,9 @@ function Task() {
           <h2>Level:LV1</h2>
         </div>
         <div className='upgrade'>
+          <Link to="/home">
           <h2>upgrade</h2>
+          </Link>
         </div>
       </div>
 
@@ -64,6 +66,12 @@ function Task() {
         <div className='underreview'>
           <Link>Under Review</Link>
         </div>
+      </div>
+
+      <div className='pending' >
+        <h2>pending tasks</h2>
+        <div>
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>        </div>
       </div>
      
       
