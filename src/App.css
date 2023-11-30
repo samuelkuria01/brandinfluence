@@ -57,30 +57,44 @@
 .packagebagcont{
   background-color:  #b3d3e1a9;
   border-radius:  #111212;
-  border-radius: 35px;
+  border-radius: 25px;
+  padding: 1px;
   margin: 20px;
 }
 .myleveldaily{
   width: 50%;
   margin-left: 40%;
 }
-.dailyincome h2{
-  font-size: 12px;
+.destiny{
+  background-color: white;
+  color: rgb(14, 91, 245);
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
 }
+.destiny:hover{
+  background-color: rgb(43, 255, 0);
+  color: black;
+}
+.dailyincome h2{
+  font-size: 15px;
+}
+
 .packagebag{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 0px;
 }
 .updatelevel{
   display: flex;
   gap: 80px;
-  justify-content: center;
+  justify-content: space-around;
 }
 .effectivetime{
   display: flex;
   gap: 10px;
+  font-weight: 600;
 }
 
 .task2 {
@@ -453,6 +467,13 @@ form .create-account:hover {
 
 
 @media screen and (max-width: 600px) {
+  .destiny{
+    background-color: white;
+    color: rgb(14, 91, 245);
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+  }
   .taskcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -619,8 +640,61 @@ form {
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
+.packagebagcont{
+  background-color:  #b3d3e1a9;
+  border-radius: 25px solid black;
+  outline: #03011d;
+  margin: 20px;
+  padding: 15px;
+}
+.myleveldaily{
+  width: 50%;
+  margin-left: 40%;
+}
+.dailyincome h2{
+  font-size: 12px;
+}
+.dailyincome p{
+  font-size: 12px;
+}
+.packagebag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.updatelevel{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.effectivetime{
+  display: flex;
+  gap: 7px;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 280px) {
   .taskcontainer2 {
     display: flex;
@@ -740,5 +814,37 @@ form input {
 }
 .mightycrown{
   width: 60%;
+}
+.packagebagcont{
+  background-color:  #b3d3e1a9;
+  border-radius:  #111212;
+  border-radius: 35px;
+  margin: 30px;
+  padding:15px ;
+}
+.myleveldaily{
+  width: 50%;
+  margin-left: 40%;
+}
+.dailyincome h2{
+  font-size: 12px;
+}
+.dailyincome p{
+  font-size: 12px;
+}
+.packagebag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.updatelevel{
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.effectivetime{
+  display: flex;
+  gap: 10px;
 }
 }
