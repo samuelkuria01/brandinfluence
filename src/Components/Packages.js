@@ -1,8 +1,16 @@
 import React from 'react'
-
+import { Link} from 'react-router-dom'
 function Packages() {
   return (
     <div className='packagecontainer'>
+        <div className='packagearrow'>
+            <div >
+                <Link to='/task'>
+                <i class="fa-solid fa-circle-arrow-left"></i>      
+                          </Link>
+            </div>
+            <h2>Packages</h2>
+        </div>
       <div className='packagebagcont'>
         <div className='packagebag'>
         <div className='dailyincome'>
@@ -10,7 +18,7 @@ function Packages() {
             <p>price: KSH 1200.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -33,7 +41,7 @@ function Packages() {
             <p>price: KSH 5000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -56,7 +64,7 @@ function Packages() {
             <p>price: KSH 8000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -79,7 +87,7 @@ function Packages() {
             <p>price: KSH 15000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -102,7 +110,7 @@ function Packages() {
             <p>price: KSH 30000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -125,7 +133,7 @@ function Packages() {
             <p>price: KSH 35000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>
@@ -147,7 +155,7 @@ function Packages() {
             <p>price: KSH 55000.00</p>
         </div>
         <div>
-            <img className='myleveldaily' alt='mambombaya' src='../Images/brandinfl.png'></img>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
         </div>
         </div>
         <div className='updatelevel'>

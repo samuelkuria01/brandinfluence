@@ -94,7 +94,10 @@
 .effectivetime{
   display: flex;
   gap: 10px;
-  font-weight: 600;
+  font-weight: 100;
+}
+.effectivetime p{
+  font-weight: 100;
 }
 
 .task2 {
@@ -449,6 +452,11 @@ form .create-account:hover {
   text-shadow: 0px 4px 18px #01afff;
 
 }
+.packagearrow{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 
 
@@ -478,6 +486,9 @@ form .create-account:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .destiny p{
+    font-size: 12px;
   }
   
   .taskcard {
@@ -648,18 +659,21 @@ form {
   padding: 15px;
 }
 .myleveldaily{
-  width: 50%;
-  margin-left: 40%;
+  width: 30%;
+  margin-left: 50%;
 }
 .dailyincome h2{
   font-size: 12px;
+}
+.dailyincome {
+width: 120%;
 }
 .dailyincome p{
   font-size: 12px;
 }
 .packagebag{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 0px;
 }
