@@ -277,8 +277,8 @@
 }
 
 .formheader {
-  display: flex;
-  margin-left: 10%;
+  margin-left: 5%;
+ 
 }
 
 form {
@@ -571,7 +571,7 @@ font-size: 18px;
 form {
   display: flex;
   margin-left: 10%;
-  margin-top: 40%;
+  margin-top: 20%;
   flex-direction: column;
   background: #fff;
   padding: 1.5rem 1rem;
@@ -683,7 +683,7 @@ font-size: 18px;
 form {
   display: flex;
   /* margin-left: 10%; */
-  margin-top: 50%;
+  margin-top: 30%;
   flex-direction: column;
   background: #fff;
   padding: 1.5rem 1rem;
