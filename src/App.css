@@ -6,19 +6,21 @@
 }
 
 
-.nav{
+.nav {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 55px;
-  box-shadow: 0 0 3px ;
+  box-shadow: 0 0 3px;
   background-color: #03011d;
   overflow-x: auto;
   display: flex;
-  z-index: 1000; /* Set a high z-index to ensure it appears above other content */
+  z-index: 1000;
+  /* Set a high z-index to ensure it appears above other content */
 
 }
-.navlink{
+
+.navlink {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -26,48 +28,57 @@
   flex-grow: 1;
   min-height: 50px;
   overflow: hidden;
-  white-space:nowrap ;
+  white-space: nowrap;
   font-size: 14px;
   text-decoration: none;
-  -webkit-top-highlight-color:transparent;
+  -webkit-top-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
 }
-.navtext{
+
+.navtext {
   color: white;
 }
-.navlink i{
+
+.navlink i {
   color: rgb(255, 250, 250);
 }
-.kadamawe{
+
+.kadamawe {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 20px;
 }
-.kadamlink a{
+
+.kadamlink a {
   color: black;
   text-decoration: none;
 }
-.task2{
+
+.task2 {
   display: flex;
   justify-content: space-around;
 }
-.upgrade{
+
+.upgrade {
   background-color: #090449ef;
   color: white;
-  font-size: 14px;
-  padding: 1px 9px 1px 9px;
+  font-size: 10px;
+  padding: 13px 25px 10px 25px;
   border-radius: 25px;
 }
-.youtube{
+
+.youtube {
   width: 150px;
 }
-.taskcontainer{
+
+.taskcontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
-.taskcard{
+
+.taskcard {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 5px;
@@ -77,7 +88,7 @@
   box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.339);
   cursor: pointer;
   transition: all 120ms;
-  
+
   /*align-items: center;
   justify-content: center; */
   background: #fff;
@@ -85,30 +96,35 @@
   padding-right: 22px;
   padding-bottom: 3.4em;
 }
-.taskspan{
+
+.taskspan {
   background-color: #03011d;
   color: white;
-  padding: 10px 50px 10px 50px ;
+  padding: 10px 50px 10px 50px;
   width: 100%;
   box-sizing: border-box;
 }
-.task3{
-  margin-top: 12px;
+
+.task3 {
+  margin-top: 25px;
   display: flex;
   justify-content: space-around;
 }
-.task3 a{
+
+.task3 a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
-.pendingtask{
+
+.pendingtask {
   text-decoration: underline;
-  text-underline-offset:5px ;
+  text-underline-offset: 5px;
 }
-.wallet{
+
+.wallet {
   display: flex;
-  align-items:first baseline;
+  align-items: first baseline;
   justify-content: space-between;
   margin: 20px;
   padding: 3px;
@@ -119,30 +135,35 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.339);
 
 }
-.balance h2{
+
+.balance h2 {
   margin-bottom: -10px;
   font-size: 20px;
   font-weight: 600;
 }
-.withrech button{
-margin-left: 5px;
-padding: 10px 7px 10px 7px;
-border-radius: 10px;
+
+.withrech button {
+  margin-left: 5px;
+  padding: 10px 7px 10px 7px;
+  border-radius: 10px;
 }
-.withdraw{
+
+.withdraw {
   background-color: white;
 }
-.recharge{
+
+.recharge {
   background-color: #05022d;
   color: white;
 }
 
-.taskcontainer2{
+.taskcontainer2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
-.taskcard2{
+
+.taskcard2 {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 5px;
@@ -152,7 +173,7 @@ border-radius: 10px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.093);
   cursor: pointer;
   transition: all 120ms;
-  
+
   /*align-items: center;
   justify-content: center; */
   background: #fff;
@@ -160,7 +181,8 @@ border-radius: 10px;
   padding-right: 22px;
   padding-bottom: 3.4em;
 }
-.taskspan2{
+
+.taskspan2 {
   padding: 10px;
   background-color: #05022d;
   color: white;
@@ -176,57 +198,76 @@ border-radius: 10px;
   width: 100%;
   text-shadow: 0px 4px 18px #2c3442;
 }
+
 /* Apply general styling to the input container */
 .input1 {
-  display: flex; 
-  width: 390px; /* Adjust the width as needed */
-  margin: 10px; /* Adjust margin as needed */
+  display: flex;
+  width: 390px;
+  /* Adjust the width as needed */
+  margin: 10px;
+  /* Adjust margin as needed */
 }
 
 /* Style for the input field */
 .firstform {
-  flex: 1; /* Allow the input field to take remaining width */
-  padding: 10px; /* Add padding for spacing inside the input field */
-  border-radius: 5px 0 0 5px; /* Add border-radius for a rounded appearance on the left */
-  border: 1px solid #ced4da; /* Add a border for a clean look */
+  flex: 1;
+  /* Allow the input field to take remaining width */
+  padding: 10px;
+  /* Add padding for spacing inside the input field */
+  border-radius: 5px 0 0 5px;
+  /* Add border-radius for a rounded appearance on the left */
+  border: 1px solid #ced4da;
+  /* Add a border for a clean look */
 }
 
 /* Style for the input group text (e.g., "@example.com") */
 .inputform2 {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center the text vertically */
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Center the text vertically */
   color: white;
   width: 20%;
-  background-color:#05022d; /* Add background color */
-  padding: 10px; /* Add padding for spacing inside the text container */
-  border-radius: 0 5px 5px 0; /* Add border-radius for a rounded appearance on the right */
-  border: 1px solid #ced4da9d; /* Add a border for a clean look */
+  background-color: #05022d;
+  /* Add background color */
+  padding: 10px;
+  /* Add padding for spacing inside the text container */
+  border-radius: 0 5px 5px 0;
+  /* Add border-radius for a rounded appearance on the right */
+  border: 1px solid #ced4da9d;
+  /* Add a border for a clean look */
 }
-.share{
+
+.share {
   display: flex;
   align-items: center;
- margin: 10px;
+  margin: 10px;
 }
-.share p{ 
+
+.share p {
   font-size: 12px;
   width: 83%;
 }
-.sharebutton button{
+
+.sharebutton button {
   display: flex;
   gap: 5px;
   background-color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 10px;
 }
-.sharebutton  i{
+
+.sharebutton i {
   font-size: 16px;
 }
-.rewardheader h2{
+
+.rewardheader h2 {
   display: flex;
   margin-top: 50px;
   margin-left: 30px;
   margin-bottom: 0px;
 }
+
 .logo {
   margin-bottom: 1rem;
   font-size: 1.2rem;
@@ -234,10 +275,12 @@ border-radius: 10px;
   color: #1877f2;
   font-weight: 700;
 }
-.formheader{
+
+.formheader {
   display: flex;
   margin-left: 10%;
 }
+
 form {
   display: flex;
   margin-left: 10%;
@@ -305,42 +348,109 @@ form .create-account:hover {
   background: #022667;
   cursor: pointer;
 }
-.user{
+
+.user {
   display: flex;
   gap: 30px;
- 
+
   padding-left: 30px;
 }
-.user i{
+
+.user i {
   font-size: 84px;
   margin-top: 20px;
 }
-.startaccount p{
-padding-bottom: 10px;
-font-size: 12px;
+
+.startaccount p {
+  padding-bottom: 10px;
+  font-size: 12px;
 }
-.usercontainer{
+
+.usercontainer {
   background-color: #05022d;
   color: rgb(255, 255, 255);
-  }
-  .moreinfo{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-left: 8%;
-    text-shadow: 0px 4px 18px #202834;
-  }
-  #arrowright{
-    margin-left: 1200%;
-  }
-  .getmoreinfo{
-    background-color: inherit;
-    border: none;
-    width: 100%;
-    margin-bottom: 5%;
-    margin-top: 3%;
-  }
-  .getmoreinfo:hover{
-    text-shadow: 0px 4px 18px #01afff;
+}
 
+.moreinfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8%;
+  text-shadow: 0px 4px 18px #202834;
+}
+
+#arrowright {
+  margin-left: 1200%;
+}
+
+.getmoreinfo {
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.getmoreinfo:hover {
+  text-shadow: 0px 4px 18px #01afff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .taskcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
+  
+  .taskcard {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    position: relative;
+    width: 6em;
+    height: 3em;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.339);
+    cursor: pointer;
+    transition: all 120ms;
+  
+    /*align-items: center;
+    justify-content: center; */
+    background: #fff;
+    padding-left: 16px;
+    padding-top: 20px;
+    padding-right: 22px;
+    padding-bottom: 3.4em;
+  }
+  
+  .taskspan {
+    background-color: #03011d;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .youtube {
+    width:90px;
+  }
+  .youtube1{
+    width: 110px;
+  }
+
+}
