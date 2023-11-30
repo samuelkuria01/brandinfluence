@@ -332,6 +332,7 @@ form input {
   font-size: 0.9rem;
 }
 .pending i{
+  margin-bottom: 50%;
   font-size: 130px;
   opacity: 0.2;
 }
