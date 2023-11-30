@@ -15,6 +15,8 @@
   background-color: #03011d;
   overflow-x: auto;
   display: flex;
+  z-index: 1000; /* Set a high z-index to ensure it appears above other content */
+
 }
 .navlink{
   margin-top: 10px;
