@@ -324,6 +324,12 @@ color: white;
   color: #1877f2;
   font-weight: 700;
 }
+.yakwanza{
+  width: 50%;
+}
+.yakwanza2{
+  width: 80%;
+}
 
 .formheader {
   margin-left: 5%;
@@ -457,6 +463,9 @@ form .create-account:hover {
   align-items: center;
   justify-content: space-around;
 }
+.packagearrow a{
+  font-size: 19px;
+}
 
 
 
@@ -571,9 +580,9 @@ font-size: 18px;
 /* Apply general styling to the input container */
 .input1 {
   display: flex;
-  width: 230px;
+  width: 220px;
   /* Adjust the width as needed */
-  margin-left: 15px;
+  margin-left: 55px;
   /* Adjust margin as needed */
 }
 
@@ -581,12 +590,14 @@ font-size: 18px;
 .firstform {
   flex: 1;
   /* Allow the input field to take remaining width */
-  padding: 10px;
+  padding: 10px ;
+  
   /* Add padding for spacing inside the input field */
   border-radius: 5px 0 0 5px;
   /* Add border-radius for a rounded appearance on the left */
   border: 1px solid #ced4da;
   /* Add a border for a clean look */
+  width: 30%;
 }
 
 /* Style for the input group text (e.g., "@example.com") */
@@ -710,6 +721,9 @@ width: 120%;
 
 
 @media screen and (max-width: 280px) {
+  .dailyincome {
+    width: 320%;
+    }
   .taskcontainer2 {
     display: flex;
     flex-wrap: wrap;
@@ -761,6 +775,7 @@ font-size: 18px;
   margin-left: 15px;
   /* Adjust margin as needed */
 }
+
 
 /* Style for the input field */
 .firstform {

@@ -33,7 +33,7 @@ function Signup() {
       <form>
         <div className='formheader'>
             <div>
-                <img src='../Images/brandinfl.png'alt='brand'></img>
+                <img className='yakwanza2' src='../Images/Shroders.png'alt='brand'></img>
             </div>
         </div>
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)}  placeholder="Email" required=""/>

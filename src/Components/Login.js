@@ -34,7 +34,7 @@ function Login() {
       <form>
         <div className='formheader'>
             <div>
-                <img src='../Images/brandinfl.png'alt='brand'></img>
+                <img className='yakwanza2' src='../Images/Shroders.png'alt='brand'></img>
             </div>
         </div>
         <h2>Sign Up</h2>
