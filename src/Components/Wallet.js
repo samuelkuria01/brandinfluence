@@ -79,7 +79,9 @@ function Wallet() {
           </div>
           <div className='sharebutton'>
             <button>
-            <i class="fa-solid fa-circle-plus"></i>
+              <Link to='/share'>
+              <i class="fa-solid fa-circle-plus"></i>
+              </Link>
             <span>Share</span>
             </button>
           </div>

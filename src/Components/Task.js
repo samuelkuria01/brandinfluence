@@ -6,7 +6,7 @@ function Task() {
       <div className='kadamawe'>
       <h2>Task</h2>
       <div className='kadamlink'>
-        <Link>
+        <Link to='/help'>
         <i class="fa-solid fa-circle-question"></i>
         <span>Help</span>
         </Link>

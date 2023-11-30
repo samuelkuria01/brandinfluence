@@ -9,6 +9,7 @@ import Me from './Components/Me'
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Packages from './Components/Packages';
+import Share from './Components/Share';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -19,6 +20,15 @@ function App() {
           path="/"
           element={
             <Login
+              // Pass setShowNavbar as a prop to Login component
+              setShowNavbar={setShowNavbar}
+            />
+          }
+        />
+         <Route
+          path="/share"
+          element={
+            <Share
               // Pass setShowNavbar as a prop to Login component
               setShowNavbar={setShowNavbar}
             />
