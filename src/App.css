@@ -499,9 +499,9 @@ font-size: 18px;
 /* Apply general styling to the input container */
 .input1 {
   display: flex;
-  width: 340px;
+  width: 230px;
   /* Adjust the width as needed */
-  margin: 10px;
+  margin-left: 15px;
   /* Adjust margin as needed */
 }
 
@@ -569,4 +569,103 @@ font-size: 18px;
   font-size: 20px;
 }
 
+}
+@media screen and (max-width: 280px) {
+  .taskcontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.taskcard2 h2{
+font-size: 18px;
+}
+.taskcard2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  position: relative;
+  width: 4em;
+  height: 5em;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.093);
+  cursor: pointer;
+  transition: all 120ms;
+
+  /*align-items: center;
+  justify-content: center; */
+  background: #fff;
+  padding-left: 16px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 23px;
+}
+
+.taskspan2 {
+  padding: 3px;
+  background-color: #05022d;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  color: rgb(255 255 255);
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 9.5px;
+  width: 100%;
+  text-shadow: 0px 4px 18px #2c3442;
+}
+.input1 {
+  display: flex;
+  width: 130px;
+  /* Adjust the width as needed */
+  margin-left: 15px;
+  /* Adjust margin as needed */
+}
+
+/* Style for the input field */
+.firstform {
+  flex: 1;
+  /* Allow the input field to take remaining width */
+  padding: 3px;
+  /* Add padding for spacing inside the input field */
+  border-radius: 5px 0 0 5px;
+  /* Add border-radius for a rounded appearance on the left */
+  border: 1px solid #ced4da;
+  /* Add a border for a clean look */
+}
+
+/* Style for the input group text (e.g., "@example.com") */
+.inputform2 {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Center the text vertically */
+  color: white;
+  width: 35%;
+  background-color: #05022d;
+  /* Add background color */
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 13px;
+  /* Add padding for spacing inside the text container */
+  border-radius: 0 5px 5px 0;
+  /* Add border-radius for a rounded appearance on the right */
+  border: 1px solid #ced4da9d;
+  /* Add a border for a clean look */
+}
+.withrech button {
+  margin-left: 5px;
+  padding: 6px 7px 6px 7px;
+  border-radius: 10px;
+}
+
+.withdraw {
+  background-color: white;
+}
+
+.recharge {
+  background-color: #05022d;
+  color: white;
+}
 }
