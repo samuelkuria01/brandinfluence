@@ -1,8 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
-function Login() {
-    const [useremail, setUserEmail] = useState('');
+function Signup() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -18,12 +17,12 @@ function Login() {
           // with your actual authentication check
     
           // Assuming login is successful, you can navigate to the home page
-          navigate('/signup');
+          navigate('/home');
     
           // If you want to hide the Navbar after login, you can call setShowNavbar(false)
     
           // Optionally, display a welcome message
-          alert('Account Created Successful');
+          alert('Welcome to Brandinfl');
         } else {
           // If either username or password is missing, display an error message
           setError('Username and password are required');
@@ -37,15 +36,14 @@ function Login() {
                 <img src='../Images/brandinfl.png'alt='brand'></img>
             </div>
         </div>
-        <h2>Sign Up</h2>
-        <input type="text"  value={useremail} onChange={(e) => setUserEmail(e.target.value)}  placeholder="Full name" required=""/>
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)}  placeholder="Email" required=""/>
         <input type="password"  value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required=""/>
-        <button onClick={handleLogin} class="create-account">Create New Account</button>
+        <button onClick={handleLogin} class="create-account">Log in</button>
+        <a href="/">Forgot Password ?</a>
         {error && <p style={{ color: 'red' }}>{error}</p>}
     </form>
     </div>
   )
 }
 
-export default Login
+export default Signup
