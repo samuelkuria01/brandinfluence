@@ -83,6 +83,29 @@ function Packages() {
       <div className='packagebagcont'>
         <div className='packagebag'>
         <div className='dailyincome'>
+            <h2>Daily Income: KSH 600</h2>
+            <p>price: KSH 12000.00</p>
+        </div>
+        <div>
+            <img className='myleveldaily' alt='mambombaya' src='../Images/Shroders.png'></img>
+        </div>
+        </div>
+        <div className='updatelevel'>
+            <div className='effectivetime'>
+                <p>LV5</p>
+                <p>effective time:200</p>
+            </div>
+            <div>
+                <button className='destiny'>
+                <p>Join now</p>
+                </button>       
+              </div>
+        </div>
+      </div>
+
+      <div className='packagebagcont'>
+        <div className='packagebag'>
+        <div className='dailyincome'>
             <h2>Daily Income: KSH 820</h2>
             <p>price: KSH 15000.00</p>
         </div>
@@ -92,7 +115,7 @@ function Packages() {
         </div>
         <div className='updatelevel'>
             <div className='effectivetime'>
-                <p>LV5</p>
+                <p>LV6</p>
                 <p>effective time:200</p>
             </div>
             <div>
@@ -115,7 +138,7 @@ function Packages() {
         </div>
         <div className='updatelevel'>
             <div className='effectivetime'>
-                <p>LV5</p>
+                <p>LV7</p>
                 <p>effective time:200</p>
             </div>
             <div>

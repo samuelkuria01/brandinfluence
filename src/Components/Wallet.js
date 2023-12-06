@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useState} from 'react'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css'; // Import the styles
 import { Link } from 'react-router-dom'
+
+
 function Wallet() {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+
+  const openPopup = () => {
+    setPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false);
+  };
+
+
   return (
     <div>
       <div className='kadamawe'>
@@ -21,8 +37,17 @@ function Wallet() {
 
         <div className='withrech'>
           <div>
-            <button className='withdraw'>withdraw</button>
-            <button className='recharge'>recharge</button>
+            <button className='withdraw' onClick={openPopup}>withdraw</button>
+            <button className='recharge' onClick={openPopup}>recharge</button>
+         
+      {isPopupOpen && (
+        <Popup trigger={null} position="right center"> {/* Use trigger={null} to manually control when the popup should be open */}
+          <div>
+            Popup content here !!
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </Popup>
+      )}
           </div>
         </div>
       </div>
