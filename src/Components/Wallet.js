@@ -1,10 +1,12 @@
 import React, { useState} from 'react'
+import { useNavigate } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css'; // Import the styles
 import { Link } from 'react-router-dom'
 
 
 function Wallet() {
+  const navigate = useNavigate()
   const [isPopupOpen, setPopupOpen] = useState(false);
 
 
@@ -15,11 +17,14 @@ function Wallet() {
   const closePopup = () => {
     setPopupOpen(false);
   };
-
+ 
+  const handleRechargeClick = () => {
+    navigate('/packages')
+  }
 
   const handleKshButtonClick = () => {
     // Add logic for handling the "KSH" button click, e.g., show a success alert
-    alert('Success! Amount in KSH');
+    alert('Withdraw Succeeded!');
     closePopup(); // Close the popup after handling the button click
   };
 
@@ -45,7 +50,7 @@ function Wallet() {
         <div className='withrech'>
           <div>
             <button className='withdraw' onClick={openPopup}>withdraw</button>
-            <button className='recharge' onClick={openPopup}>recharge</button>
+            <button className='recharge' onClick={handleRechargeClick} >recharge</button>
          
       {isPopupOpen && (
         <Popup open={isPopupOpen} onClose={closePopup} position="right center"> {/* Use trigger={null} to manually control when the popup should be open */}
@@ -54,8 +59,8 @@ function Wallet() {
           <label>Amount</label>
           <input placeholder='Enter amaount'></input>
           <div className='popbutton'>
-           <button onClick={closePopup}>USD</button>
-            <button onClick={handleKshButtonClick}>KSH</button>
+           <button className='recharge' onClick={closePopup}>USD</button>
+            <button className='recharge' onClick={handleKshButtonClick}>KSH</button>
           </div>
            
           </div>
