@@ -104,6 +104,22 @@
   display: flex;
   justify-content: space-around;
 }
+.popupcontainer{
+  padding: 10px 5px 20px 3px;
+  width: 95%;
+}
+.popup label{
+  margin:10px 10px;
+}
+
+.popup input{
+  margin:16px 3px 19px 3px;
+  width: 90%;
+  padding: 10px;
+}
+.popbutton button{
+  margin-left: 15%;
+}
 
 .upgrade {
   background-color: #090449ef;

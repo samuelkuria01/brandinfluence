@@ -17,6 +17,13 @@ function Wallet() {
   };
 
 
+  const handleKshButtonClick = () => {
+    // Add logic for handling the "KSH" button click, e.g., show a success alert
+    alert('Success! Amount in KSH');
+    closePopup(); // Close the popup after handling the button click
+  };
+
+
   return (
     <div>
       <div className='kadamawe'>
@@ -41,10 +48,17 @@ function Wallet() {
             <button className='recharge' onClick={openPopup}>recharge</button>
          
       {isPopupOpen && (
-        <Popup trigger={null} position="right center"> {/* Use trigger={null} to manually control when the popup should be open */}
-          <div>
-            Popup content here !!
-            <button onClick={closePopup}>Close</button>
+        <Popup open={isPopupOpen} onClose={closePopup} position="right center"> {/* Use trigger={null} to manually control when the popup should be open */}
+          <div className='popupcontainer'>
+            <div className='popup'>
+          <label>Amount</label>
+          <input placeholder='Enter amaount'></input>
+          <div className='popbutton'>
+           <button onClick={closePopup}>USD</button>
+            <button onClick={handleKshButtonClick}>KSH</button>
+          </div>
+           
+          </div>
           </div>
         </Popup>
       )}
